@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ForIterations
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Tutorial 9 - Iteration Statements
+            // Example 1 - For Loop
+            for (int i = 0; i < 10; i++)
+            {
+                // Console.WriteLine(i.ToString());
+                if (i == 7) {
+                    Console.WriteLine("Found seven!");
+                    break;
+                }
+            }
+
+            for (int myValue = 0; myValue < 12; myValue++)
+            {
+                Console.WriteLine(myValue);
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
